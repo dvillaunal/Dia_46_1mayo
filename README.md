@@ -1,17 +1,3 @@
----
-title: "Dia_46_1mayo"
-author: "Daniel Felipe Villa Rengifo"
-date: "1/5/2021"
-output: 
-  html_document: 
-    toc: yes
-    toc_float: yes
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 __Protocolo:__
 
 + Daniel Felipe Villa Rengifo
@@ -260,7 +246,3 @@ message("\n# Vemmos el resultado:")
 
 print(formateo)
 ```
-
-
-
-

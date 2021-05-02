@@ -78,7 +78,7 @@ message("\n# Contiene algo:")
 print(nzchar("Contiene")) # <- Como  Contiene algo devolvera TRUE
 
 # En paralelo, un espacio cuenta como que la cadena no esta vacia:
-message("\n# En paralelo, un espacio cuenta como que la cadena no esta vacia:")
+message("\n# En paralelo, un espacio cuenta como que la cadena no esta vacia, ya que tiene un espacio:")
 
 print(nzchar(" "))
 

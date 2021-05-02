@@ -222,7 +222,7 @@ El argumento anterior establece que:
 
 1. `char`: puede ser un vector de números enteros o caracteres.
 
-2. `ancho`: indica un ancho mínimo de cadena producida.
+2. `width`: indica un ancho mínimo de cadena producida.
 
 3. `scientific`: el valor predeterminado es FALSO, pero use VERDADERO para la notación científica.
 
@@ -230,7 +230,7 @@ El argumento anterior establece que:
 
 5. `nsmall`: indica el número total después del lugar decimal.
 
-6. `dígits`: indica el número total antes y después del lugar decimal.
+6. `digits`: indica el número total antes y después del lugar decimal.
 
 
 ```{r}
@@ -241,7 +241,7 @@ message("\n# Tomemos un ejemplo de formateo de cadenas para notación científic
 message("\n# Cambiamos el vector a forma cientifica:")
 
 formateo <- format(c(14L, 21.3131), scientific = TRUE)
-# Vemmos el resultado:
+# Veamos el resultado:
 message("\n# Vemmos el resultado:")
 
 print(formateo)

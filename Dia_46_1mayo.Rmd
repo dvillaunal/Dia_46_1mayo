@@ -236,7 +236,7 @@ El argumento anterior establece que:
 
 1. `char`: puede ser un vector de números enteros o caracteres.
 
-2. `ancho`: indica un ancho mínimo de cadena producida.
+2. `width`: indica un ancho mínimo de cadena producida.
 
 3. `scientific`: el valor predeterminado es FALSO, pero use VERDADERO para la notación científica.
 

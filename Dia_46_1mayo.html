@@ -1529,12 +1529,12 @@ div.tocify {
 <pre class="r"><code># Como definir un string en R:
 message(&quot;# Como definir un string en R:&quot;)</code></pre>
 <pre><code>## # Como definir un string en R:</code></pre>
-<pre class="r"><code>print(paste(&quot;Hola Mundo&quot;, &quot;&lt;=&quot;, &quot;Asi se define un string común en R con (comillas dobles)&quot;))</code></pre>
-<pre><code>## [1] &quot;Hola Mundo &lt;= Asi se define un string común en R con (comillas dobles)&quot;</code></pre>
+<pre class="r"><code>print(paste(&quot;Hola Mundo&quot;, &quot;&lt;=&quot;, &quot;Así se define un string común en R con (comillas dobles)&quot;))</code></pre>
+<pre><code>## [1] &quot;Hola Mundo &lt;= Así se define un string común en R con (comillas dobles)&quot;</code></pre>
 <pre class="r"><code>cadena = &quot;Muy lejos, más allá de las montañas de palabras&quot;
 
-print(paste(cadena, &quot;&lt;=&quot;, &quot;Asi se ve como sale esta cadena definida en comillas dobles o simples (sale solo el texto)&quot;))</code></pre>
-<pre><code>## [1] &quot;Muy lejos, más allá de las montañas de palabras &lt;= Asi se ve como sale esta cadena definida en comillas dobles o simples (sale solo el texto)&quot;</code></pre>
+print(paste(cadena, &quot;&lt;=&quot;, &quot;Así se ve como sale esta cadena definida en comillas dobles o simples (sale solo el texto)&quot;))</code></pre>
+<pre><code>## [1] &quot;Muy lejos, más allá de las montañas de palabras &lt;= Así se ve como sale esta cadena definida en comillas dobles o simples (sale solo el texto)&quot;</code></pre>
 <ul>
 <li><p>Como solo las comillas simples o las comillas dobles son los caracteres especiales que se utilizan para representar una cadena R, incluirlos en una cadena requiere un cuidado especial.</p></li>
 <li><p>Para incluir una comilla simple dentro de un valor de cadena, rodee la comilla simple con comillas dobles.</p></li>
@@ -1633,7 +1633,7 @@ message(&quot;\n# En paralelo, un espacio cuenta como que la cadena no esta vaci
 <ol style="list-style-type: decimal">
 <li><p><code>char</code>: indica un vector de cracteres</p></li>
 <li><p><code>type</code>: Indica uno de los tres tipos, es decir, “width”, “chars”, “bytes”.</p></li>
-<li><p><code>allowNA</code>: Indica un valor lógico por defecto como FALSE y en caso de que el resultado no pueda ser calculado no será un error sino que retornará NA.</p></li>
+<li><p><code>allowNA</code>: Indica un valor lógico por defecto como FALSE y en caso de que el resultado no pueda ser calculado no será un error, sino que retornará NA.</p></li>
 <li><p><code>keepNA</code>: Indica un valor lógico por defecto como FALSE donde se asignará el valor faltante a 2 y nzchar() dará TRUE, pero ambos se asignarán a TRUE también en el caso de los valores faltantes.</p></li>
 </ol>
 <pre class="r"><code># Retomemos algunas cadenas de texto:
@@ -1681,7 +1681,7 @@ message(&quot;\n# Ahora en minúscula:&quot;)</code></pre>
 <div id="extraer-y-remplazar-una-cadena-de-caracteres" class="section level1">
 <h1>Extraer y remplazar una cadena de caracteres:</h1>
 <p><code>substr(char, start, stop)</code>: extracción y sustitución de una cadena de caracteres.</p>
-<p>Explicando los items que reciben <code>substr</code>:</p>
+<p>Explicando los ítems que reciben <code>substr</code>:</p>
 <ol style="list-style-type: decimal">
 <li><p><code>char</code>: indica una cadena de caracteres.</p></li>
 <li><p><code>start</code>: indica un número entero que especifica el valor inicial correspondiente que se devolverá.</p></li>
@@ -1723,11 +1723,11 @@ message(&quot;\n# Extraemos los primeros 1000 caracteres:&quot;)</code></pre>
 <p>El argumento anterior establece que:</p>
 <ol style="list-style-type: decimal">
 <li><p><code>char</code>: puede ser un vector de números enteros o caracteres.</p></li>
-<li><p><code>ancho</code>: indica un ancho mínimo de cadena producida.</p></li>
+<li><p><code>width</code>: indica un ancho mínimo de cadena producida.</p></li>
 <li><p><code>scientific</code>: el valor predeterminado es FALSO, pero use VERDADERO para la notación científica.</p></li>
 <li><p><code>justify</code>: predeterminado a ninguno, pero puede mostrar cadenas a “derecha”, “izquierda” y “centro”.</p></li>
 <li><p><code>nsmall</code>: indica el número total después del lugar decimal.</p></li>
-<li><p><code>dígits</code>: indica el número total antes y después del lugar decimal.</p></li>
+<li><p><code>digits</code>: indica el número total antes y después del lugar decimal.</p></li>
 </ol>
 <pre class="r"><code># Tomemos un ejemplo de formateo de cadenas para notación científica.
 message(&quot;\n# Tomemos un ejemplo de formateo de cadenas para notación científica.&quot;)</code></pre>

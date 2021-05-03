@@ -14,14 +14,14 @@
 
 
 ## ------------------------------------------------------------------------
-# Como definir un string en R:
-message("# Como definir un string en R:")
+# Comó definir un string en R:
+message("# Comó definir un string en R:")
 
-print(paste("Hola Mundo", "<=", "Asi se define un string común en R con (comillas dobles)"))
+print(paste("Hola Mundo", "<=", "Así se define un string común en R con (comillas dobles)"))
 
 cadena = "Muy lejos, más allá de las montañas de palabras"
 
-print(paste(cadena, "<=", "Asi se ve como sale esta cadena definida en comillas dobles o simples (sale solo el texto)"))
+print(paste(cadena, "<=", "Así se ve como sale esta cadena definida en comillas dobles o simples (sale solo el texto)"))
 
 
 

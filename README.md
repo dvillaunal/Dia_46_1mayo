@@ -24,10 +24,10 @@ Las siguientes son las reglas para escribir una cadena válida en el lenguaje de
 > `str1 = 'Hola Mundo' Ó str1 = "Hola Mundo"`
 
 ```{r}
-# Como definir un string en R:
+# Comó definir un string en R:
 message("# Como definir un string en R:")
 
-print(paste("Hola Mundo", "<=", "Asi se define un string común en R con (comillas dobles)"))
+print(paste("Hola Mundo", "<=", "Así se define un string común en R con (comillas dobles)"))
 
 cadena = "Muy lejos, más allá de las montañas de palabras"
 
@@ -76,11 +76,11 @@ cat(c2, "\n")
 cat(c3, "\n")
 
 ## Concatenamos nuestro strings:
-message("\n## Cocatenenos nuestro strings:")
+message("\n## Concatenenos nuestro strings:")
 print(paste(c1, c2, c3))
 
 ## un Ejemplo de concatenar con diferentes items:
-"Haremos concatenar "
+"Haremos concatenar.."
 # Definamos dos vectores cadenas
 vec_str1 <- c(".EPUB", ".PDF", " Fisico")
 
@@ -106,7 +106,7 @@ Pelicula_2021 <- paste0("Mor","tal"," ","Kom","bat")
 print(Pelicula_2021)
 ```
 
-# Encontar Longitud:
+# Encontrar Longitud:
 
 + `nchar(char, type, allowNA, keepNA)`: encontrar el número total de caracteres en un vector dado.
 
